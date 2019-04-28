@@ -1,0 +1,88 @@
+.showcase {
+	height: 70vh;
+	border: 3px white solid;
+	background-image: url(../images/photos.jpg);
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 15px;
+}
+
+body {
+	background: black;
+}
+
+.idontknow {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	height: 50vh;
+	padding: 10px;
+	margin-bottom: 15px;
+
+}
+
+.pic {
+	height: 50vh;
+	border: 3px white solid;
+}
+
+.description {
+	border: 3px white solid;
+	height: 50vh;
+	font-size: 33px;
+	font-family: Bebas Neue;
+	text-align: center;
+	color: white;
+}
+
+
+.pic3 {
+	background-image: url(../images/pic3.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.pic4 {
+	background-image: url(../images/pic4.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+	margin-bottom: 15px;
+}
+
+.pic5 {
+	background-image: url(../images/pic5.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.description2 {
+	border: 3px white solid;
+	font-size: 40px;
+	font-family: Bebas Neue;
+	text-align: center;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+.return {
+	margin-left: auto;
+	width: 5%;
+}
+
+h2 {
+	text-align: center;
+	font-family: Bebas Neue;
+	border: 3px white solid;
+	color: white;
+	padding: 10px;
+}

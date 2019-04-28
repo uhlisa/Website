@@ -1,0 +1,90 @@
+.header {
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.logo {
+	background-image: url(../images/logo.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	border: 3px white solid;
+	border-radius: 50%;
+	height: 15vh;
+	width: 15vh;
+}
+
+.menu {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+	font-family: Bebas Neue;
+	grid-gap: 2px;
+	padding: 10px;	
+	color: white;
+	border: 3px white solid;
+}
+
+ul {
+	padding: 0px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(2,1fr);
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: black;
+}
+
+.showcase {
+	height: 70vh;
+	border: 3px white solid;
+	background-image: url(../images/home.jpg);
+	background-position: center;
+	margin-bottom: 15px;
+}
+
+.idontknow {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	height: 50vh;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-family: Bebas Neue;
+	font-size: 35px;
+}
+
+.pic {
+	height: 50vh;
+	border: 3px white solid;
+}
+
+.description {
+	border: 3px white solid;
+	height: 50vh;
+}
+
+
+.pic1 {
+	background-image: url(../images/pic1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.pic2 {
+	background-image: url(../images/pic2.jpg);
+	background-position: center;
+	background-size: cover;
+}
